@@ -4,9 +4,9 @@ import time
 from datetime import datetime
 
 # Define the device parameters
-host = '192.168.174.153'  # Replace with your router's IP
-username = 'admin'  # Replace with your username
-password = 'Cisco123'  # Replace with your password
+host = '192.168.1.132'  # Replace with your router's IP
+username = 'ccna'  # Replace with your username
+password = 'ccna'  # Replace with your password
 commands = ["terminal length 0", "show running-config"]
 
 # Create an SSH client

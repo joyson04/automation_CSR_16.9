@@ -12,7 +12,7 @@ terraform {
 }
 
 provider "iosxe" {
-  url      = "https://192.168.174.153"
+  url      = "https://192.168.1.32"
   username = "admin"
   password = "Cisco123"
   insecure = true

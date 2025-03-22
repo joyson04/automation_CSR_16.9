@@ -4,17 +4,13 @@ terraform {
       source  = "CiscoDevNet/iosxe"
       version = "~>0.5.7"
     }
-    null = {
-      source = "hashicorp/null"
-      version = "3.2.3"
-    }
   }
 }
 
 provider "iosxe" {
   url      = "https://192.168.1.32"
-  username = "admin"
-  password = "Cisco123"
+  username = "ccna"
+  password = "ccna"
   insecure = true
 }
 
